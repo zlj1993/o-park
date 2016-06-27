@@ -1,0 +1,174 @@
+.m-index {
+    .l-container {
+         position: relative;
+        .m-home {
+            @include flexbox();
+            @include flex-direction(column);
+            overflow: hidden;
+            height: 100%;
+            >* {
+                width: 100%;
+            }
+            header {
+                background: #272727;
+                height: 0.84rem;
+                color: #fff;
+                @include border(0 0 3px 0,red);
+                ul {
+                    @include flexbox();
+                    height: 100%;
+                    li {
+                        height: 100%;
+                        list-style: none;
+                        &:first-child {
+                            width: 0.84rem;
+                            height: 0.84rem;
+                            text-align: center;
+                            line-height: 0.84rem;
+                            font-size: 0.25rem;
+                        }
+                        &:last-child {
+                            @include flex(1);
+                            width: 100%;
+                            height: 0.44rem;
+                            padding: 0 0.3rem 0 0;
+                            box-sizing: border-box;
+                            input {
+                                width: 100%;
+                                height: 100%;
+                                margin-top: 0.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            section {
+                height: 100%;
+                .class {
+                    width: 100%;
+                    .section1 {
+                        width: 100%;
+                        @include flexbox();
+                        .div {
+                            width: 100%;
+                            height: 1.35rem;
+                            #guide-swiper {
+                                width: 100%;
+                                height: 100%;
+                                .swiper-wrapper {
+                                    width: 100%;
+                                    height: 100%;
+                                    .swiper-slide {
+                                        width: 100%;
+                                        height: 100%;
+                                        img {
+                                            display: block;
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .section2 {
+                        width: 100%;
+                        height: 1.40rem;
+                        background: #fff;
+                        ul {
+                            width: 6.40rem;
+                            height: 100%;
+                            overflow: hidden;
+                            @include flexbox();
+                            @include box-sizing(border-box);
+                            li {
+                                width: 0.80rem;
+                                height: 1.40rem;
+                                margin-right: 0.01rem;
+                                @include flex(1);
+                                @include flexbox();
+                                @include flex-direction(column);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                @include box-sizing(border-box);
+                                margin-top: 0.02rem;
+                                &:nth-child(1) {
+                                    margin-left: 0.04rem;
+                                }
+                                img {
+                                    width: 0.75rem;
+                                    height: 0.75rem;
+                                }
+                                i {
+                                    display: block;
+                                    font-size: 0.15rem;
+                                    line-height: 0.2rem;
+                                    margin-top: 0.1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .section3 {
+                    overflow: hidden;
+                    @include flex(1);
+                    width:100%;
+                    background: black;
+                    ul {
+
+                        margin-top: 0.05rem;
+                        @include flexbox();
+                        width:100%;
+                        li {
+                            &:nth-child(1),
+                            &:nth-child(3),
+                            &:nth-child(5) {
+                                @include flex(1);
+                                width: 100%;
+                                @include box-sizing(border-box);
+                                @include border(1px, #d9d9d9);
+                            }
+                            &:nth-child(2),
+                            &:nth-child(4) {
+                                width:0.06rem;
+                            }
+                            img {
+                                display:block;
+                                width:100%;
+                            }
+                            &.hide{
+                              visibility: hidden;
+                            }
+                        }
+                    }
+                    .foot {
+                        color: #fff;
+                        text-align: center;
+                        height: 0.4rem;
+                        line-height: 0.4rem;
+                    }
+                    .foot img {
+                        display: block;
+                        margin-left:1.5rem;
+                        margin-top:.13rem;
+                        background-color: #fff;
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                        height: 0.18rem;
+                        width: 0.11rem;
+                        float: left;
+                    }
+                    .up {
+                        transform: rotate(360deg) !important;
+                        -webkit-transform: rotate(360deg) !important;
+                    }
+                    span{
+                      display: block;
+                      float: right;
+                      margin-right:1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

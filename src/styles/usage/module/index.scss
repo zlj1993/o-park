@@ -1,0 +1,50 @@
+.m-index{
+   height: 100%;
+   @include flexbox();
+   @include flex-direction(column);
+.l-container{
+  @include flex(1);
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+
+}
+    footer{
+      width:100%;
+      height:.55rem;
+      background-color:pink;
+      color:#fff;
+      ul{
+        width:100%;
+        height:100%;
+        @include flexbox();
+        @include box-sizing(border-box);
+        @include border(1px 0 0 0, #d9d9d9);
+      li{
+          @include flex(1);
+          @include flexbox();
+          @include flex-direction(column);
+          @include align-items(center);
+          @include justify-content(center);
+           margin-top:.1rem;
+          &.active i,
+          &.active b {
+            color:red;
+          }
+          i, b {
+            display: block;
+            color: #aaaaaa;
+          }
+          i {
+            font-size:.2rem;
+            line-height:.2rem;
+          }
+          b {
+            font-weight: normal;
+            font-size: .12rem;
+          }
+
+        }
+      }
+    }
+}

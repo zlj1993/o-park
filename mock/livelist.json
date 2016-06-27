@@ -1,0 +1,26 @@
+{
+  "res":true,
+  "errcode":-1,
+  "errmsg":"",
+  "data":[
+    {
+      "imgsrc":"/ox-park/img/img1.jpg"
+    },
+    {
+      "imgsrc":"/ox-park/img/img2.jpg"
+    },
+    {
+      "imgsrc":"/ox-park/img/img3.jpg"
+     },
+    {
+      "imgsrc":"/ox-park/img/img1.jpg"
+    },
+    {
+      "imgsrc":"/ox-park/img/img2.jpg"
+    },
+    {
+      "imgsrc":"/ox-park/img/img3.jpg"
+     }
+
+  ]
+}

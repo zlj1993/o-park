@@ -1,0 +1,51 @@
+<div class="m-home">
+  <header>
+  <ul>
+    <li>上海</li>
+    <li><i></i><input type="text" placeholder="搜索明星、演出、场馆"></li>
+  </ul>
+  </header>
+
+
+<section spa-widget="scroll" data-scroll-id="homeHotScroll">
+  <div class="class" >
+    <section class="section1">
+     <div class="div">
+       <!--swiper-->
+    <div class="swiper-container" id="guide-swiper">
+     <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/ox-park/img/banner1.jpg"></div>
+    <div class="swiper-slide"><img src="/ox-park/img/banner2.jpg"></div>
+    <div class="swiper-slide"><img src="/ox-park/img/banner3.jpg"></div>
+</div>
+<!-- 如果需要分页器 -->
+<div class="swiper-pagination"></div>
+  </div>
+     </div>
+    </section>
+
+   <section class="section2" spa-widget="scroll" data-scroll-id="lifenav-scroll">
+      <ul>
+        <li><img src="/ox-park/img/sing.jpg"/><i>演唱会</i></li>
+        <li><img src="/ox-park/img/music.jpg"/><i>音乐会</i></li>
+        <li><img src="/ox-park/img/face.jpg"/><i>话剧歌剧</i></li>
+        <li><img src="/ox-park/img/horse.jpg"/><i>儿童亲子</i></li>
+        <li><img src="/ox-park/img/ball.jpg"/><i>体育赛事</i></li>
+        <li><img src="/ox-park/img/dress.jpg"/><i>舞蹈芭蕾</i></li>
+        <li><img src="/ox-park/img/balloon.jpg"/><i>曲艺杂谈</i></li>
+        <li><img src="/ox-park/img/star.jpg"/><i>展览展示</i></li>
+      </ul>
+    </section>
+  <section class="section3">
+      <ul ms-repeat-value="livelist">
+        <li><img ms-src="value[0].imgsrc"/></li>
+        <li></li>
+        <li  ms-class-hide="!value[1]"><img ms-src="value[1].imgsrc"/></li>
+        <li></li>
+        <li  ms-class-hide="!value[2]"><img ms-src="value[2].imgsrc"/></li>
+      </ul>
+
+    </section>
+    </div>
+</section>
+    </div>

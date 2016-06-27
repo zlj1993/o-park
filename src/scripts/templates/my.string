@@ -1,0 +1,37 @@
+<div class="my-my">
+  <header class="my-header">
+    <img src="/ox-park/img/bbb.jpg"/>
+  </header>
+
+  <section>
+   <div class="section-div">
+      <ul>
+        <li><i class="yo-ico">&#xe677;</i><b>待付款</b></li>
+        <li><i class="yo-ico">&#xe69b;</i><b>所有订单</b></li>
+      </ul>
+      <ul>
+        <li><i class="yo-ico">&#xe676;</i><b>我的抵用券</b><span>&gt;</span></li>
+        <li><i class="yo-ico">&#xe649;</i><b>地址管理</b><span>&gt;</span></li>
+        <li><i class="yo-ico">&#xe67e;</i><b>意见反馈</b><span>&gt;</span></li>
+        <li><i class="yo-ico">&#xe6a8;</i><b>常见问题</b><span>&gt;</span></li>
+      </ul>
+   </div>
+
+
+   <section class="section-sec">
+   <ul>
+     <li><i class="yo-ico">&#xe621;</i><b>关于我们</b><span>&gt;</span></li>
+     <li><i class="yo-ico">&#xe603;</i><b>客服电话</b><span>&gt;</span></li>
+   </ul>
+   </section>
+</section>
+
+
+
+
+
+
+
+
+
+</div>

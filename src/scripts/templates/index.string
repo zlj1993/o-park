@@ -1,0 +1,11 @@
+<div class="m-index">
+  <div class="l-container" >
+</div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch-tabs" data-tag="home"><i class="yo-ico">&#xe630;</i><b>首页</b></li>
+      <li action-type="switch-tabs" data-tag="show"><i class="yo-ico">&#xe620;</i><b>演出</b></li>
+      <li action-type="switch-tabs" data-tag="my"><i class="yo-ico">&#xe60c;</i><b>我的</b></li>
+    </ul>
+  </footer>
+</div>

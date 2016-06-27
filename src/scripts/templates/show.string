@@ -1,0 +1,86 @@
+<div class="second" >
+    <header class="show-header">
+      <ul>
+        <li>演出</li>
+        <li></li>
+        <li></li>
+        <li>
+          <i class="yo-ico">&#xe6bf;</i>
+          <i class="yo-ico">&#xe6a8;</i>
+        </li>
+      </ul>
+    </header>
+
+      <nav class="show-nav" data-scroll-id="runnav-scroll" spa-widget="scroll">
+        <ul>
+          <li class="active" action-type="switch-tabs">全部类型</li>
+          <li action-type="switch-tabs">演唱会</li>
+          <li action-type="switch-tabs">音乐会</li>
+          <li action-type="switch-tabs">话剧歌剧</li>
+          <li action-type="switch-tabs">儿童亲子</li>
+          <li action-type="switch-tabs">体育赛事</li>
+          <li action-type="switch-tabs">舞蹈巴黎</li>
+          <li action-type="switch-tabs">曲艺杂谈</li>
+          <li action-type="switch-tabs">展览展示</li>
+        </ul>
+      </nav>
+
+
+<!---section------------------->
+    <section>
+     <section class="show-section1">
+        <figure>
+        <figcaption><img src="/ox-park/img/pic2.jpg"/></figcaption>
+        <span>
+          <h1>多媒体3D舞台剧《盗墓笔记外传 藏海花》</h1>
+          <h4>2016.07.27-2016.08.14</h4>
+          <h5>人民大舞台</h5>
+          <div class="show-pp">
+            <img src="/ox-park/img/tickit.jpg"/>
+            <img src="/ox-park/img/senven.jpg"/>
+            <i><a>194</a>元起</i>
+          </div>
+         </span>
+         </figure>
+         <div class="show-pp1"></div>
+    </section>
+
+    <section class="show-section2">
+      <figure>
+      <figcaption><img src="/ox-park/img/pic2.jpg"/></figcaption>
+      <span>
+        <h1>多媒体3D舞台剧《盗墓笔记外传 藏海花》</h1>
+        <h4>2016.07.27-2016.08.14</h4>
+        <h5>人民大舞台</h5>
+        <div class="show-pp">
+          <img src="/ox-park/img/tickit.jpg"/>
+          <img src="/ox-park/img/senven.jpg"/>
+          <i><a>194</a>元起</i>
+        </div>
+       </span>
+       </figure>
+       <div class="show-pp1"></div>
+  </section>
+
+  <section class="show-section3">
+    <figure>
+    <figcaption><img src="/ox-park/img/pic2.jpg"/></figcaption>
+    <span>
+      <h1>多媒体3D舞台剧《盗墓笔记外传 藏海花》</h1>
+      <h4>2016.07.27-2016.08.14</h4>
+      <h5>人民大舞台</h5>
+      <div class="show-pp">
+        <img src="/ox-park/img/tickit.jpg"/>
+        <img src="/ox-park/img/senven.jpg"/>
+        <i><a>194</a>元起</i>
+      </div>
+     </span>
+     </figure>
+     <div class="show-pp1"></div>
+</section>
+</section>
+
+
+
+
+</div>
